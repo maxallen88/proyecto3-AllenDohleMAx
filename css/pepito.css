@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* agregando lo del style.css */
+* ´ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+}
+.card__img {
+  width: 95%;
+}
+.card__title {
+  text-align: center;
+}
+.card__description {
+  text-align: justify;
+}
+
+header {
+  /* agregando lo que tenia el style.css  */
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 90%;
+}
+
+.navegator {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header div {
+  width: 10%;
+}
+
+header div img {
+  width: 80%;
+  border-radius: 5%;
+}
+
+.navegator li a {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navegator li a:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  color: #202124;
+}
+
+/* agregando style.css*/
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer div {
+  display: flex;
+  justify-content: end;
+  font-size: small;
+}
+
+.imagenes_footer {
+  display: flex;
+  justify-content: end;
+}
+
+.imagenes_footer img {
+  width: 5%;
+  padding: 5px;
+}
+
+/* agregando style.css */
+.imagenes_skate {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagenes_skate img {
+  width: 50%;
+  padding: 5px;
+  /*centrar imagen dentro de card*/
+  display: block;
+  margin: 0 auto;
+}
+
+.imagenes_apparel {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container_apparel {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagenes_apparel img {
+  width: 100%;
+  padding: 5px;
+  /*centrar imagen dentro de card*/
+  display: block;
+  margin: 0 auto;
+}
+
+.imagen_principal {
+  background-color: aliceblue;
+  display: flex;
+}
+
+.imagen_principal img {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  /* estilos para pantallas con un ancho mínimo de 600px */
+}
+@media (max-width: 600px) {
+  /* estilos para pantallas con un ancho máximo de 600px */
+  .imagenes_skate {
+    display: block;
+  }
+  .container_apparel {
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  /* estilos para pantallas con un ancho máximo de 600px */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: auto;
+  }
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-image {
+    width: 600px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .item-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  /* estilos para pantallas con un ancho entre 600px y 800px */
+}
+/* GIDS DE HISTORIA */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-image {
+  width: 600px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item-text {
+  margin-top: 20px;
+  text-align: center;
+}/*# sourceMappingURL=pepito.css.map */

@@ -1,0 +1,48 @@
+/* agregando style.css */
+
+.imagenes_skate {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagenes_skate img {
+    width: 50%;
+    padding: 5px;
+    /*centrar imagen dentro de card*/
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.imagenes_apparel {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container_apparel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagenes_apparel img {
+    width: 100%;
+    padding: 5px;
+    /*centrar imagen dentro de card*/
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.imagen_principal {
+    background-color: aliceblue;
+    display: flex;
+}
+
+.imagen_principal img {
+    width: 100%;
+}
